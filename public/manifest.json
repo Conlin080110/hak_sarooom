@@ -1,0 +1,20 @@
+{
+  "short_name": "\uc0c8\ub86c\uace0",
+  "name": "\uc0c8\ub86c\uace0 \ud559\uad50 \uc5b4\ud50c",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
