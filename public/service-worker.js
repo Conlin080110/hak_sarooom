@@ -1,7 +1,8 @@
 
-self.addEventListener('install', (e) => {
+self.addEventListener('install', function(e) {
   console.log('Service Worker: Installed');
 });
-self.addEventListener('fetch', (e) => {
-  e.respondWith(fetch(e.request).catch(() => new Response("오프라인 상태입니다.")));
+
+self.addEventListener('fetch', function(e) {
+  e.respondWith(fetch(e.request));
 });
